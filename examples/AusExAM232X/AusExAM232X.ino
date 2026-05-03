@@ -7,6 +7,7 @@ uint32_t delayMS;
 void setup()  
 {
   Serial.begin(9600);
+  delay(5000);
   // Initialize device.
   am232x.begin();
   Serial.println(F("am232x Unified Sensor Example"));
